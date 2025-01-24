@@ -1,0 +1,28 @@
+{%extends 'users/userbase.html'%}
+{%load static%}
+
+{%block contents%}
+<div class="hero-wrap js-fullheight img" style="background-image: url({%static 'images/bg_1.jpg'%});">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-center">
+				<div class="col-md-10 d-flex align-items-center ftco-animate">
+					<div class="text w-100 text-center">
+                        <table>
+							<tr style="color: white; font-size: xx-large;">
+								<td>Accuracy  </td>
+								<td>: {{acc}}</td>
+							</tr>
+							<tr style="color: white; font-size: xx-large;">
+								<td>loss  </td>
+								<td>: {{loss}}</td>
+							</tr>
+						</table>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+{%endblock%}
