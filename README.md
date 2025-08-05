@@ -11,9 +11,9 @@
     <br />
     <br />
     <!-- Replace the user/repo with your own to make these badges dynamic -->
-    <a href="https://github.com/[your-username]/[your-repo]/commits/main"><img src="https://img.shields.io/github/last-commit/[your-username]/[your-repo]" alt="last commit"></a>
-    <a href="https://github.com/[your-username]/[your-repo]"><img src="https://img.shields.io/github/languages/top/[your-username]/[your-repo]" alt="top language"></a>
-    <a href="https://github.com/[your-username]/[your-repo]"><img src="https://img.shields.io/github/languages/count/[your-username]/[your-repo]" alt="languages count"></a>
+    <a href="https://github.com/davincik20/Deepfake_Detection/commits/main"><img src="https://img.shields.io/github/last-commit/davincik20/Deepfake_Detection" alt="last commit"></a>
+    <a href="https://github.com/davincik20/Deepfake_Detection"><img src="https://img.shields.io/github/languages/top/davincik20/Deepfake_Detection" alt="top language"></a>
+    <a href="https://github.com/davincik20/Deepfake_Detection"><img src="https://img.shields.io/github/languages/count/davincik20/Deepfake_Detection" alt="languages count"></a>
     <a href="[YOUR_PROJECT_DEMO_LINK_HERE]"><img src="https://img.shields.io/badge/View_Demo-green" alt="View Demo"></a>
   </p>
 </p>
@@ -22,12 +22,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#overview">Overview</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -36,6 +31,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -45,9 +41,23 @@
 
 ---
 
-## About The Project
+## Overview
 
-(Here, write a brief introduction to your project. Explain the problem it solves and why it's important. For example: "This project is a deep learning-based solution designed to detect manipulated videos and images, commonly known as deepfakes. In an era of rampant misinformation, this tool provides a way to verify the authenticity of digital media.")
+Deepfake_Detection is an open-source platform that leverages advanced AI models to identify manipulated media, providing a robust solution for media authentication. Built on Django, it offers a user-friendly web interface, secure user and admin management, and seamless deployment capabilities.
+
+### Why Deepfake_Detection?
+
+This project aims to combat misinformation by integrating deepfake detection with scalable web services. The core features include:
+
+• 🎯 🔍 **Detection Accuracy:** Utilizes pre-trained neural networks like Meso4 to classify videos and images as real or fake.
+
+• 💻 ⚙️ **Command-line Management:** Simplifies environment setup, database migrations, and administrative tasks via manage.py.
+
+• 🛠️ 💾 **Modular Architecture:** Combines AI, web, and data processing components for flexible deployment and scalability.
+
+• 🔐 🔧 **Secure User Management:** Facilitates registration, login, and session handling for both users and administrators.
+
+• 🚀 🌐 **Deployment Ready:** Supports production deployment with WSGI interface and organized project settings.
 
 ### Built With
 
@@ -72,8 +82,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-Make sure you have Python and pip installed on your system.
-* Python 3.8+
-* pip
-  ```sh
-  python -m ensurepip --upgrade
+This project requires the following dependencies:
+
+• **Programming Language:** Python
+• **Package Manager:** Pip
+
+### Installation
+
+Build Deepfake_Detection from the source and install dependencies:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/davincik20/Deepfake_Detection
