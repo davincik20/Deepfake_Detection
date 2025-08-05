@@ -10,7 +10,6 @@
     Unmask Fake Media, Empower Truth with Confidence
     <br />
     <br />
-    <!-- Replace the user/repo with your own to make these badges dynamic -->
     <a href="https://github.com/davincik20/Deepfake_Detection/commits/main"><img src="https://img.shields.io/github/last-commit/davincik20/Deepfake_Detection" alt="last commit"></a>
     <a href="https://github.com/davincik20/Deepfake_Detection"><img src="https://img.shields.io/github/languages/top/davincik20/Deepfake_Detection" alt="top language"></a>
     <a href="https://github.com/davincik20/Deepfake_Detection"><img src="https://img.shields.io/github/languages/count/davincik20/Deepfake_Detection" alt="languages count"></a>
