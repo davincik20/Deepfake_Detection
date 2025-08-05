@@ -50,46 +50,21 @@ This project aims to combat misinformation by integrating deepfake detection wit
 
 • 🎯 🔍 **Detection Accuracy:** Utilizes pre-trained neural networks like Meso4 to classify videos and images as real or fake.
 
-• 💻 ⚙️ **Command-line Management:** Simplifies environment setup, database migrations, and administrative tasks via manage.py.
-
-• 🛠️ 💾 **Modular Architecture:** Combines AI, web, and data processing components for flexible deployment and scalability.
-
-• 🔐 🔧 **Secure User Management:** Facilitates registration, login, and session handling for both users and administrators.
-
-• 🚀 🌐 **Deployment Ready:** Supports production deployment with WSGI interface and organized project settings.
-
-### Built With
-
-This project was built using the following technologies and frameworks.
-
-<p align="left">
-  <img src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras">
-  <br>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6.svg?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
-  <img src="https://img.shields.io/badge/Dlib-43A047?style=for-the-badge" alt="Dlib">
-</p>
+---
 
 ## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 This project requires the following dependencies:
 
-• **Programming Language:** Python
-• **Package Manager:** Pip
+- **Programming Language:** Python
+- **Package Manager:** Pip
 
 ### Installation
 
 Build Deepfake_Detection from the source and install dependencies:
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/davincik20/Deepfake_Detection
+   ```bash
+   git clone https://github.com/davinci1020/Deepfake_Detection
